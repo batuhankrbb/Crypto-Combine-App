@@ -11,7 +11,7 @@ import SwiftUI
 struct kriptoCombineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CoinList()
         }
     }
 }

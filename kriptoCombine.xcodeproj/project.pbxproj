@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		84DD2C1A258DC61E001C2E98 /* kriptoCombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2C19258DC61E001C2E98 /* kriptoCombineApp.swift */; };
-		84DD2C1C258DC61E001C2E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2C1B258DC61E001C2E98 /* ContentView.swift */; };
+		84DD2C1C258DC61E001C2E98 /* CoinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2C1B258DC61E001C2E98 /* CoinList.swift */; };
 		84DD2C1E258DC61E001C2E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD2C1D258DC61E001C2E98 /* Assets.xcassets */; };
 		84DD2C21258DC61E001C2E98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD2C20258DC61E001C2E98 /* Preview Assets.xcassets */; };
+		84DD2C2B258DC674001C2E98 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD2C2A258DC674001C2E98 /* CryptoService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84DD2C16258DC61E001C2E98 /* kriptoCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kriptoCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DD2C19258DC61E001C2E98 /* kriptoCombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kriptoCombineApp.swift; sourceTree = "<group>"; };
-		84DD2C1B258DC61E001C2E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84DD2C1B258DC61E001C2E98 /* CoinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinList.swift; sourceTree = "<group>"; };
 		84DD2C1D258DC61E001C2E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DD2C20258DC61E001C2E98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84DD2C22258DC61E001C2E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DD2C2A258DC674001C2E98 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				84DD2C19258DC61E001C2E98 /* kriptoCombineApp.swift */,
-				84DD2C1B258DC61E001C2E98 /* ContentView.swift */,
+				84DD2C2A258DC674001C2E98 /* CryptoService.swift */,
+				84DD2C1B258DC61E001C2E98 /* CoinList.swift */,
 				84DD2C1D258DC61E001C2E98 /* Assets.xcassets */,
 				84DD2C22258DC61E001C2E98 /* Info.plist */,
 				84DD2C1F258DC61E001C2E98 /* Preview Content */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DD2C1C258DC61E001C2E98 /* ContentView.swift in Sources */,
+				84DD2C1C258DC61E001C2E98 /* CoinList.swift in Sources */,
+				84DD2C2B258DC674001C2E98 /* CryptoService.swift in Sources */,
 				84DD2C1A258DC61E001C2E98 /* kriptoCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
